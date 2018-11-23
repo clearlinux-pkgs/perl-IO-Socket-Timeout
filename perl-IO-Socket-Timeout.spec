@@ -4,7 +4,7 @@
 #
 Name     : perl-IO-Socket-Timeout
 Version  : 0.32
-Release  : 4
+Release  : 5
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DAMS/IO-Socket-Timeout-0.32.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DAMS/IO-Socket-Timeout-0.32.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libi/libio-socket-timeout-perl/libio-socket-timeout-perl_0.32-1.debian.tar.xz
@@ -15,6 +15,7 @@ Requires: perl-IO-Socket-Timeout-license = %{version}-%{release}
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Module::Build::Tiny)
 BuildRequires : perl(PerlIO::via::Timeout)
+BuildRequires : perl(Test::SharedFork)
 BuildRequires : perl(Test::TCP)
 
 %description

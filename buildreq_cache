@@ -1,4 +1,5 @@
 0.32
 perl(Module::Build::Tiny)
 perl(PerlIO::via::Timeout)
+perl(Test::SharedFork)
 perl(Test::TCP)
