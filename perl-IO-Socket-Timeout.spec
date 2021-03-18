@@ -4,7 +4,7 @@
 #
 Name     : perl-IO-Socket-Timeout
 Version  : 0.32
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DAMS/IO-Socket-Timeout-0.32.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DAMS/IO-Socket-Timeout-0.32.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libi/libio-socket-timeout-perl/libio-socket-timeout-perl_0.32-1.debian.tar.xz
@@ -109,4 +109,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/IO/Socket/Timeout.pm
+/usr/lib/perl5/vendor_perl/5.32.1/IO/Socket/Timeout.pm
